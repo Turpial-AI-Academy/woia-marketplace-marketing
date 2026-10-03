@@ -1,2 +1,11 @@
-# woia-marketplace-marketing
-WOIA v0.5.0 component: woia-marketplace-marketing
+# WOIA Marketing Marketplace
+
+Department marketplace for WOIA v0.5.0.
+
+This repository is a **generated distribution view** of the canonical global registry in `Turpial-AI-Academy/woia-ecosystem`.
+
+Do not hand-maintain plugin identity, versions, or source selectors here. Maintainers regenerate `.agents/plugins/marketplace.json` from the ecosystem registry after verified plugin admission.
+
+The current bootstrap catalog is intentionally empty because all new WOIA plugin identities begin as `planned`. Formal generation will populate only independently verified immutable releases.
+
+Consumers may register/install/update this marketplace when a released catalog is published; consumers do not edit this repository.
