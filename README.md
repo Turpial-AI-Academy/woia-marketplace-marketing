@@ -6,6 +6,6 @@ This repository is a **generated distribution view** of the canonical global reg
 
 Do not hand-maintain plugin identity, versions, or source selectors here. Maintainers regenerate `.agents/plugins/marketplace.json` from the ecosystem registry after verified plugin admission.
 
-The current bootstrap catalog is intentionally empty because all new WOIA plugin identities begin as `planned`. Formal generation will populate only independently verified immutable releases.
+The catalog contains released plugins selected from the canonical registry and pinned to immutable release refs. Catalog updates are regenerated after independent release admission.
 
 Consumers may register/install/update this marketplace when a released catalog is published; consumers do not edit this repository.
