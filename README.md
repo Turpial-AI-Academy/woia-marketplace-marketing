@@ -1,11 +1,11 @@
 # WOIA Marketing Marketplace
 
-Department marketplace for WOIA v0.5.0.
+Generated department catalog `v0.5.4` for `marketing`.
 
-This repository is a **generated distribution view** of the canonical global registry in `Turpial-AI-Academy/woia-ecosystem`.
+The canonical plugin identities, admitted versions, lifecycle, policy and membership belong to [WOIA Ecosystem](https://github.com/Turpial-AI-Academy/woia-ecosystem). This catalog is generated from Ecosystem `v0.5.5` at `e75042a76b4682527db9f483446d74a8da865602`; `GENERATED_FROM.json` records that source.
 
-Do not hand-maintain plugin identity, versions, or source selectors here. Maintainers regenerate `.agents/plugins/marketplace.json` from the ecosystem registry after verified plugin admission.
+Consumers register this marketplace from its immutable `v0.5.4` ref. `.agents/plugins/marketplace.json` exposes 18 admitted plugin versions with immutable source refs. Installing a plugin does not grant business authority or activate a department root; Core retains Project selection, configuration, snapshots and authority controls.
 
-The catalog contains released plugins selected from the canonical registry and pinned to immutable release refs. Catalog updates are regenerated after independent release admission.
+The previous immutable catalog is `v0.5.3`. Re-register that exact catalog to recover the previous selection; existing Tasks retain their Core snapshots.
 
-The immutable v0.5.0 Marketing catalog is published. Consumers may register/install/update that released marketplace; consumers do not edit this repository. Current `main` may contain post-release documentation maintenance, but production selectors remain the released immutable catalog until a later marketplace version is explicitly published.
+Maintainers replace the catalog only with deterministic Ecosystem `marketplace:generate` output, after release admission. Consumers do not edit canonical registry or marketplace source.
