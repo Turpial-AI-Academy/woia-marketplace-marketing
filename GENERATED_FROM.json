@@ -1,8 +1,8 @@
 {
   "schema": "dev.woia.generated-marketplace/v1",
-  "version": "0.5.4",
+  "version": "0.5.7",
   "source_repository": "Turpial-AI-Academy/woia-ecosystem",
-  "source_commit": "e75042a76b4682527db9f483446d74a8da865602",
+  "source_commit": "869a753e486c1f0d3f3107784767f1c4f3872a9b",
   "marketplace": "woia-marketplace-marketing",
   "preview": false
 }
