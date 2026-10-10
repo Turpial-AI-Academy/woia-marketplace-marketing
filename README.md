@@ -1,9 +1,14 @@
 # WOIA Marketing
 
-Department marketplace **v0.5.7**, containing 18 plugin identities for `marketing`. Shared plugins retain one canonical repository.
+Department marketplace **v0.5.8** for `marketing`. Its base view contains 15 generic plugins; its Real Estate view contains 19 plugins. Shared capabilities retain one canonical source repository.
 
-Use the published WOIA Global/bootstrap distribution to initialize and start a trusted department Project. Project startup enables this entire catalog; Tasks select providers within it without changing the marketplace. Configuration alone does not prove native host loading.
+| View | Catalog |
+|---|---|
+| Base | `.agents/plugins/marketplace.json` |
+| Real Estate | `.agents/plugins/products/real-estate/marketplace.json` |
 
-The canonical [membership registry](https://github.com/Turpial-AI-Academy/woia-ecosystem/blob/v0.5.7/registry/marketplaces.json) belongs to Ecosystem. Generate `.agents/plugins/marketplace.json` through `marketplace:generate`; do not edit plugin selectors here. `GENERATED_FROM.json` identifies the exact source commit.
+Install this single marketplace, a standalone plugin, or a complete product through released [WOIA Global](https://github.com/Turpial-AI-Academy/woia-global) artifacts. A Project binds one complete effective department catalog; Tasks select providers within that catalog. Installation, host loading and business authority are separate observations.
 
-Maintain source in its owning repository and preserve published tags and assets.
+The canonical [base membership](https://github.com/Turpial-AI-Academy/woia-ecosystem/blob/33758cc21c4c14643f8fc1fc9f786b85a663047a/registry/marketplaces.json) and [product recipes](https://github.com/Turpial-AI-Academy/woia-ecosystem/blob/33758cc21c4c14643f8fc1fc9f786b85a663047a/registry/products.json) belong to Ecosystem. Both views come from its deterministic `marketplace:generate` command. `GENERATED_FROM.json` records the exact source commit, registry hashes and resolved release pins.
+
+Maintain implementation in its owning repository. Preserve published tags and assets.

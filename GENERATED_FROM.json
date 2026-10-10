@@ -1,8 +1,307 @@
 {
-  "schema": "dev.woia.generated-marketplace/v1",
-  "version": "0.5.7",
+  "schema": "dev.woia.generated-marketplace/v2",
+  "version": "0.5.8",
   "source_repository": "Turpial-AI-Academy/woia-ecosystem",
-  "source_commit": "869a753e486c1f0d3f3107784767f1c4f3872a9b",
+  "source_commit": "33758cc21c4c14643f8fc1fc9f786b85a663047a",
+  "source_tree": "7e608111b99ae1556e1c95d19d1e689e2d7ba5b1",
+  "source_registry_sha256": {
+    "plugins": "5bda8539f095a67969573eab463dfbe5eafc9a5c0141f98be9cda4d4422bde79",
+    "marketplaces": "bf660cc06481f13ff707fd7be25f6df21b32535638d9dcb4d73c53f5bd5daf46",
+    "departments": "72f625ca6e8461982123bff7ab831bf0782af672f1474659b332ccc675d95349",
+    "products": "a532095c0f6759bd247afd2bd4e46cfab21f5eb767e6d75b2f4e0be33d96d5ad",
+    "compositions": "37c5fb530bcbd731e84d44640557a8c453f8c8b096bee9215113710709dcc311"
+  },
   "marketplace": "woia-marketplace-marketing",
-  "preview": false
+  "department": "marketing",
+  "preview": false,
+  "catalogs": [
+    {
+      "product": "base",
+      "path": ".agents/plugins/marketplace.json",
+      "sha256": "58ca9f9a2c0ea415317ad97de8cc2d40d621b0f3da118b7a00710be2489e5dcf",
+      "plugin_count": 15,
+      "plugins": [
+        {
+          "name": "woia-core",
+          "version": "0.5.8",
+          "ref": "v0.5.8",
+          "commit": "bfe615b49751a6d1a6a74bd850ac7202263e671c",
+          "tree": "dc75819de59b0ef0b6d1b8407b7ee481eaa47fca",
+          "artifact_sha256": "4e037b99ffad896713b5067eb35ad17df26525f780f347e316c3e04c858d352a"
+        },
+        {
+          "name": "woia-marketing",
+          "version": "0.5.8",
+          "ref": "v0.5.8",
+          "commit": "97368c9dc830655912ecb8b41fb5b37aebed8494",
+          "tree": "335f70c593f8f7d1c0ec5ef2b1356d641c4acb67",
+          "artifact_sha256": "70ecd9b3f1ebbe09184dc52aec56abbef2f293ed324fc04205e4808570b9dffb"
+        },
+        {
+          "name": "woia-chatgpt-project-bridge",
+          "version": "0.5.7",
+          "ref": "v0.5.7",
+          "commit": "0d4df794479aee5f7b5ab7ee30c41666d5d462d9",
+          "tree": "7450c037634d7ccf827e6897495758ea7fcae46a",
+          "artifact_sha256": "7f43f2f3a7a95bc2aa0e45322667a7c915ff273608877eac9922cf177dfa7d5c"
+        },
+        {
+          "name": "woia-customer-data",
+          "version": "0.5.7",
+          "ref": "v0.5.7",
+          "commit": "cb8a8c3d785db33d459fca43dd6141e3b43dae4d",
+          "tree": "49d719fbbb697d6dc263fd9577f0b4caacf9b0f3",
+          "artifact_sha256": "e2fc1e99fe18de8ee0e1a025bff438f66e891d541f0a2b9a72d5a7c3a96371f7"
+        },
+        {
+          "name": "woia-identity",
+          "version": "0.5.8",
+          "ref": "v0.5.8",
+          "commit": "269db04cefe1fcf12a5e19280dd23ef140a1848a",
+          "tree": "021875605a6c505cca6e71b9c61dcbce09f53213",
+          "artifact_sha256": "ae4392a94e1185104e1f1d4b696abaeee50dd271ca460ecfb15e0873355f6643"
+        },
+        {
+          "name": "woia-communications",
+          "version": "0.5.8",
+          "ref": "v0.5.8",
+          "commit": "484d7771e16416522832b2617510683576f2584e",
+          "tree": "b0a2f3bb5b591cb3eddf670679a11d9cc62c779e",
+          "artifact_sha256": "aa58f311576df07bf2bd706b1968501c17aba15f2a226233a8a8a68c00180928"
+        },
+        {
+          "name": "woia-documents",
+          "version": "0.5.9",
+          "ref": "v0.5.9",
+          "commit": "356d365e259c324dfb5c110e0843ca1cfd7aba3c",
+          "tree": "c890f0366db91499bbfe7a91d889a6f7cd22742e",
+          "artifact_sha256": "9a7a6b8fe8d6a646e54b93b058f81dde9375c0b1be37f19f9a85be72890c8e94"
+        },
+        {
+          "name": "woia-organization-knowledge",
+          "version": "0.5.8",
+          "ref": "v0.5.8",
+          "commit": "ebe116bdd442aee3d6c5e60dbca8165f08666322",
+          "tree": "23ecf4a99395ddc55a2aadc90495cc30fc61023c",
+          "artifact_sha256": "5f9adf5224db42d90f98b13cd4557608f782627f9f729e09826164b8bc0644b6"
+        },
+        {
+          "name": "woia-marketing-strategy",
+          "version": "0.5.8",
+          "ref": "v0.5.8",
+          "commit": "6ae5461e33c0571f97e320d69565583cda50c65c",
+          "tree": "67c7b788d49da8f44f0bb1ab3be31f72b15edfdd",
+          "artifact_sha256": "88b866af89dcbd8954c12838093f454681da7d484f5abf5d96e5e5373a88900f"
+        },
+        {
+          "name": "woia-marketing-audience",
+          "version": "0.5.8",
+          "ref": "v0.5.8",
+          "commit": "d1c56fb29b5f3f705792217e8ff4a7254afc878a",
+          "tree": "527aca304dc78f18cfe87e41bb4f84154d35fb2f",
+          "artifact_sha256": "0f63a8f12c375581e10dbd015d0cf073e2c69ff763ff2c3b973cf5c69215a792"
+        },
+        {
+          "name": "woia-marketing-content-copy",
+          "version": "0.5.7",
+          "ref": "v0.5.7",
+          "commit": "896ff7c5c96f50a23ba4738b42e7528f72ff51f6",
+          "tree": "5e005bfd375c88ab7b3907b373e3ce1989628ce9",
+          "artifact_sha256": "eb24c1bde74cb4178a4ecf60423a49c4f3ae7cf5310261e74ae86d6055c8fb2f"
+        },
+        {
+          "name": "woia-marketing-creative",
+          "version": "0.5.7",
+          "ref": "v0.5.7",
+          "commit": "fd3a281112a359a7c88ce7e9b1840321c83ac3bb",
+          "tree": "9f922c7131231fadd9c2ec36a81c999149e60d0e",
+          "artifact_sha256": "d1cc3cf7606c42085511934549f439dd8eaf6df5236bbd5612e4630b3cc4fe88"
+        },
+        {
+          "name": "woia-marketing-channel-execution",
+          "version": "0.5.8",
+          "ref": "v0.5.8",
+          "commit": "7881d0806cd78a462abd437234564492af7c695f",
+          "tree": "00b2f2910312c5907ae89aaeb8cbb578648f912a",
+          "artifact_sha256": "2f97280eabe5c9ddf40f3ccf3d30fd4f857dd7ec963b5519ff72f282accaba45"
+        },
+        {
+          "name": "woia-marketing-analytics",
+          "version": "0.5.7",
+          "ref": "v0.5.7",
+          "commit": "288c7ec39ab790f99a79ef6f31b66148bc52426b",
+          "tree": "3f74a034672c6c594f5e3b37b39a3073af3779a3",
+          "artifact_sha256": "ed094c5cd2e66bd82a52ac08d86eee8a4cb726ae63e54c1a1c8d61a48dffac2a"
+        },
+        {
+          "name": "woia-comfyui-local",
+          "version": "0.5.8",
+          "ref": "v0.5.8",
+          "commit": "1ebeac923b685b666f1ac71ab32c1334e869360a",
+          "tree": "05ac7241cf775d0ed41ad551a5536aca255973ef",
+          "artifact_sha256": "bcbfe32af10f5013520c0be538ffb56930a1a4d518d49102da27f776ac960813"
+        }
+      ]
+    },
+    {
+      "product": "real-estate",
+      "path": ".agents/plugins/products/real-estate/marketplace.json",
+      "sha256": "a098ba9592cfd8af3f76bf225be9ed278d0e24228f6f6293cc8bbad287e0423b",
+      "plugin_count": 19,
+      "plugins": [
+        {
+          "name": "woia-core",
+          "version": "0.5.8",
+          "ref": "v0.5.8",
+          "commit": "bfe615b49751a6d1a6a74bd850ac7202263e671c",
+          "tree": "dc75819de59b0ef0b6d1b8407b7ee481eaa47fca",
+          "artifact_sha256": "4e037b99ffad896713b5067eb35ad17df26525f780f347e316c3e04c858d352a"
+        },
+        {
+          "name": "woia-marketing",
+          "version": "0.5.8",
+          "ref": "v0.5.8",
+          "commit": "97368c9dc830655912ecb8b41fb5b37aebed8494",
+          "tree": "335f70c593f8f7d1c0ec5ef2b1356d641c4acb67",
+          "artifact_sha256": "70ecd9b3f1ebbe09184dc52aec56abbef2f293ed324fc04205e4808570b9dffb"
+        },
+        {
+          "name": "woia-chatgpt-project-bridge",
+          "version": "0.5.7",
+          "ref": "v0.5.7",
+          "commit": "0d4df794479aee5f7b5ab7ee30c41666d5d462d9",
+          "tree": "7450c037634d7ccf827e6897495758ea7fcae46a",
+          "artifact_sha256": "7f43f2f3a7a95bc2aa0e45322667a7c915ff273608877eac9922cf177dfa7d5c"
+        },
+        {
+          "name": "woia-customer-data",
+          "version": "0.5.7",
+          "ref": "v0.5.7",
+          "commit": "cb8a8c3d785db33d459fca43dd6141e3b43dae4d",
+          "tree": "49d719fbbb697d6dc263fd9577f0b4caacf9b0f3",
+          "artifact_sha256": "e2fc1e99fe18de8ee0e1a025bff438f66e891d541f0a2b9a72d5a7c3a96371f7"
+        },
+        {
+          "name": "woia-identity",
+          "version": "0.5.8",
+          "ref": "v0.5.8",
+          "commit": "269db04cefe1fcf12a5e19280dd23ef140a1848a",
+          "tree": "021875605a6c505cca6e71b9c61dcbce09f53213",
+          "artifact_sha256": "ae4392a94e1185104e1f1d4b696abaeee50dd271ca460ecfb15e0873355f6643"
+        },
+        {
+          "name": "woia-communications",
+          "version": "0.5.8",
+          "ref": "v0.5.8",
+          "commit": "484d7771e16416522832b2617510683576f2584e",
+          "tree": "b0a2f3bb5b591cb3eddf670679a11d9cc62c779e",
+          "artifact_sha256": "aa58f311576df07bf2bd706b1968501c17aba15f2a226233a8a8a68c00180928"
+        },
+        {
+          "name": "woia-documents",
+          "version": "0.5.9",
+          "ref": "v0.5.9",
+          "commit": "356d365e259c324dfb5c110e0843ca1cfd7aba3c",
+          "tree": "c890f0366db91499bbfe7a91d889a6f7cd22742e",
+          "artifact_sha256": "9a7a6b8fe8d6a646e54b93b058f81dde9375c0b1be37f19f9a85be72890c8e94"
+        },
+        {
+          "name": "woia-organization-knowledge",
+          "version": "0.5.8",
+          "ref": "v0.5.8",
+          "commit": "ebe116bdd442aee3d6c5e60dbca8165f08666322",
+          "tree": "23ecf4a99395ddc55a2aadc90495cc30fc61023c",
+          "artifact_sha256": "5f9adf5224db42d90f98b13cd4557608f782627f9f729e09826164b8bc0644b6"
+        },
+        {
+          "name": "woia-marketing-strategy",
+          "version": "0.5.8",
+          "ref": "v0.5.8",
+          "commit": "6ae5461e33c0571f97e320d69565583cda50c65c",
+          "tree": "67c7b788d49da8f44f0bb1ab3be31f72b15edfdd",
+          "artifact_sha256": "88b866af89dcbd8954c12838093f454681da7d484f5abf5d96e5e5373a88900f"
+        },
+        {
+          "name": "woia-marketing-audience",
+          "version": "0.5.8",
+          "ref": "v0.5.8",
+          "commit": "d1c56fb29b5f3f705792217e8ff4a7254afc878a",
+          "tree": "527aca304dc78f18cfe87e41bb4f84154d35fb2f",
+          "artifact_sha256": "0f63a8f12c375581e10dbd015d0cf073e2c69ff763ff2c3b973cf5c69215a792"
+        },
+        {
+          "name": "woia-marketing-content-copy",
+          "version": "0.5.7",
+          "ref": "v0.5.7",
+          "commit": "896ff7c5c96f50a23ba4738b42e7528f72ff51f6",
+          "tree": "5e005bfd375c88ab7b3907b373e3ce1989628ce9",
+          "artifact_sha256": "eb24c1bde74cb4178a4ecf60423a49c4f3ae7cf5310261e74ae86d6055c8fb2f"
+        },
+        {
+          "name": "woia-marketing-creative",
+          "version": "0.5.7",
+          "ref": "v0.5.7",
+          "commit": "fd3a281112a359a7c88ce7e9b1840321c83ac3bb",
+          "tree": "9f922c7131231fadd9c2ec36a81c999149e60d0e",
+          "artifact_sha256": "d1cc3cf7606c42085511934549f439dd8eaf6df5236bbd5612e4630b3cc4fe88"
+        },
+        {
+          "name": "woia-marketing-channel-execution",
+          "version": "0.5.8",
+          "ref": "v0.5.8",
+          "commit": "7881d0806cd78a462abd437234564492af7c695f",
+          "tree": "00b2f2910312c5907ae89aaeb8cbb578648f912a",
+          "artifact_sha256": "2f97280eabe5c9ddf40f3ccf3d30fd4f857dd7ec963b5519ff72f282accaba45"
+        },
+        {
+          "name": "woia-marketing-analytics",
+          "version": "0.5.7",
+          "ref": "v0.5.7",
+          "commit": "288c7ec39ab790f99a79ef6f31b66148bc52426b",
+          "tree": "3f74a034672c6c594f5e3b37b39a3073af3779a3",
+          "artifact_sha256": "ed094c5cd2e66bd82a52ac08d86eee8a4cb726ae63e54c1a1c8d61a48dffac2a"
+        },
+        {
+          "name": "woia-comfyui-local",
+          "version": "0.5.8",
+          "ref": "v0.5.8",
+          "commit": "1ebeac923b685b666f1ac71ab32c1334e869360a",
+          "tree": "05ac7241cf775d0ed41ad551a5536aca255973ef",
+          "artifact_sha256": "bcbfe32af10f5013520c0be538ffb56930a1a4d518d49102da27f776ac960813"
+        },
+        {
+          "name": "woia-re-domain-contracts",
+          "version": "0.5.8",
+          "ref": "v0.5.8",
+          "commit": "7c76b2404f485e2b66eb63aea7dc91d95d5a9357",
+          "tree": "4160de886a97908ddf1289b10e3de8440ceacdce",
+          "artifact_sha256": "032796533b7803fd8a86942cf08d64c9e9b354c2e3fa7adfb8a3e99f71779801"
+        },
+        {
+          "name": "woia-re-property-data",
+          "version": "0.5.8",
+          "ref": "v0.5.8",
+          "commit": "8f684b6484417639709200db23811fc626dc8dec",
+          "tree": "bd9386fa6272a7c937f24f2cda40ac7a212cafaf",
+          "artifact_sha256": "071b23f2f73101f1076212780913f902c2e7b830da6967b92784d92c18c7d352"
+        },
+        {
+          "name": "woia-re-listing-distribution",
+          "version": "0.5.8",
+          "ref": "v0.5.8",
+          "commit": "1e5e090af47467a9e21dec0a10f4cb60a2f5a287",
+          "tree": "d7d76256cc05b8cb8b28ce9d8965a5ad808ec4f4",
+          "artifact_sha256": "624afc0db07517a7a8c94c76adf11ad20971d231880422ea64b9f22eaddf3606"
+        },
+        {
+          "name": "woia-re-marketing",
+          "version": "0.1.0",
+          "ref": "v0.1.0",
+          "commit": "1505c27a73863fc7b66aeadf6c8540e83ef4aa29",
+          "tree": "82e4b1c0aecaf8b747781fb427b3787e8ebbb175",
+          "artifact_sha256": "39059441bb59fbe6b4b94ae212b47ee9e3021d9a65a4d0a74d0c8818fd16c131"
+        }
+      ]
+    }
+  ]
 }

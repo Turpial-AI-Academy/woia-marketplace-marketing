@@ -1,6 +1,6 @@
 {
   "name": "woia-marketplace-marketing",
   "private": true,
-  "version": "0.5.7",
-  "description": "Generated WOIA Marketing marketplace for WOIA v0.5.0."
+  "version": "0.5.8",
+  "description": "Generated WOIA Marketing marketplace with generic base and Real Estate views."
 }
